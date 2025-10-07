@@ -1,8 +1,7 @@
 import streamlit as st
-import pandas as pd
-import numpy as np
-import mlflow
-import mlflow.pyfunc
+import joblib
+import requests
+from io import BytesIO
 
 # ==================== CONFIG ====================
 st.set_page_config(
@@ -11,18 +10,11 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# MLflow Configuration
-MLFLOW_TRACKING_URI = "https://your-mlflow-server.com"
-REG_MODEL_NAME = "MaxEMIRegressor"
-REG_MODEL_VERSION = 2
-CLASS_MODEL_NAME = "EMIEligibilityClassifier"
-CLASS_MODEL_VERSION = 2
-USED_LOG1P_TRANSFORM = True
+# DagsHub raw model URLs (Update these to your actual paths)
+REG_MODEL_URL = "https://dagshub.com/SachinMosambe/Intelligent-Financial-Risk-Assessment-Platform/raw/main/mlruns/models/MaxEMIRegressor/version-2/model.pkl"
+CLASS_MODEL_URL = "https://dagshub.com/SachinMosambe/Intelligent-Financial-Risk-Assessment-Platform/raw/main/mlruns/models/EMIEligibilityClassifier/version-2/model.pkl"
 
-try:
-    mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
-except Exception as e:
-    st.warning(f"MLflow connection issue: {e}")
+USED_LOG1P_TRANSFORM = True
 
 # Feature lists
 CLASSIFICATION_FEATURES = [
@@ -40,29 +32,28 @@ REGRESSION_FEATURES = [
 
 # ==================== MODEL LOADING ====================
 @st.cache_resource(show_spinner=False)
-def load_model_by_version(model_name: str, version: int):
-    """Load model from MLflow Registry (cached)"""
+def load_model_from_dagshub(url: str):
+    """Load model file from DagsHub raw URL"""
     try:
-        model_uri = f"models:/{model_name}/{version}"
-        return mlflow.pyfunc.load_model(model_uri)
-    except Exception:
+        response = requests.get(url)
+        response.raise_for_status()
+        return joblib.load(BytesIO(response.content))
+    except Exception as e:
+        st.error(f"Error loading model from {url}: {e}")
         return None
 
 
-@st.cache_data(ttl=300, show_spinner=False)
-def get_model_metadata(model_name: str, version: int):
-    """Get model metadata"""
-    try:
-        client = mlflow.MlflowClient()
-        mv = client.get_model_version(model_name, version)
-        return {
-            "name": model_name,
-            "version": mv.version,
-            "stage": mv.current_stage,
-            "available": True
-        }
-    except Exception as e:
-        return {"available": False, "error": str(e)}
+# Load both models
+st.sidebar.info("🔄 Loading models from DagsHub...")
+reg_model = load_model_from_dagshub(REG_MODEL_URL)
+class_model = load_model_from_dagshub(CLASS_MODEL_URL)
+
+if reg_model is None or class_model is None:
+    st.error("❌ Failed to load models. Check your DagsHub URLs or file paths.")
+    st.stop()
+else:
+    st.sidebar.success("✅ Models loaded successfully!")
+
 
 
 # ==================== FEATURE ENGINEERING ====================

@@ -1,0 +1,54 @@
+# -------------------------------
+# Python
+# -------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+*.swp
+*.swo
+
+# -------------------------------
+# Jupyter Notebooks
+# -------------------------------
+.ipynb_checkpoints
+
+# -------------------------------
+# Virtual Environment / IDE
+# -------------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# -------------------------------
+# MLflow
+# -------------------------------
+mlruns/
+mlartifacts/
+
+# -------------------------------
+# Large datasets / models
+# -------------------------------
+*.csv
+*.h5
+*.pkl
+*.joblib
+*.model
+
+# -------------------------------
+# OS generated
+# -------------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------------
+# Logs and temporary files
+# -------------------------------
+*.log
+*.tmp
+*.bak

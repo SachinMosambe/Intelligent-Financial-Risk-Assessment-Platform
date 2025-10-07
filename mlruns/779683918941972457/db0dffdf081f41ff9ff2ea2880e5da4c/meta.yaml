@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/779683918941972457/db0dffdf081f41ff9ff2ea2880e5da4c/artifacts
+end_time: 1759782492581
+entry_point_name: ''
+experiment_id: '779683918941972457'
+lifecycle_stage: active
+run_id: db0dffdf081f41ff9ff2ea2880e5da4c
+run_name: config_4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759782492068
+status: 3
+tags: []
+user_id: sachi

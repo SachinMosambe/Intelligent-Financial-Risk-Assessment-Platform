@@ -1,0 +1,14 @@
+artifact_uri: file:///d:/backup/AI course work/Guvi/Assignment2_EMI_Predict/mlruns/407208619469201270/fc1d14cf989c405990556dfb861b6cf6/artifacts
+end_time: 1759813729056
+entry_point_name: ''
+experiment_id: '407208619469201270'
+lifecycle_stage: active
+run_id: fc1d14cf989c405990556dfb861b6cf6
+run_name: config_9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759813728898
+status: 3
+tags: []
+user_id: sachi

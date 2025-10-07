@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/646164083556573300/7a224c563a02492f8cfb9ac50d1431e4/artifacts
+deleted_time: 1759773943099
+end_time: 1759738810038
+entry_point_name: ''
+experiment_id: '646164083556573300'
+lifecycle_stage: deleted
+run_id: 7a224c563a02492f8cfb9ac50d1431e4
+run_name: Random Forest Classifier
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759738753130
+status: 3
+tags: []
+user_id: sachi

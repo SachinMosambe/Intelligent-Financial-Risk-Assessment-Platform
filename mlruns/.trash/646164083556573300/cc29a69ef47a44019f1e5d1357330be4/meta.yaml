@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/646164083556573300/cc29a69ef47a44019f1e5d1357330be4/artifacts
+deleted_time: 1759773943099
+end_time: 1759740100283
+entry_point_name: ''
+experiment_id: '646164083556573300'
+lifecycle_stage: deleted
+run_id: cc29a69ef47a44019f1e5d1357330be4
+run_name: config_12
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759740099964
+status: 3
+tags: []
+user_id: sachi

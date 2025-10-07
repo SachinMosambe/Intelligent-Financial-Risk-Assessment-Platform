@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/779683918941972457/72506ae16c0d467bb3b4ddf74dcbdfd1/artifacts
+end_time: 1759776887768
+entry_point_name: ''
+experiment_id: '779683918941972457'
+lifecycle_stage: active
+run_id: 72506ae16c0d467bb3b4ddf74dcbdfd1
+run_name: XGBoost Classifier
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759776848200
+status: 3
+tags: []
+user_id: sachi

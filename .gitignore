@@ -25,20 +25,9 @@ venv/
 *.sublime-project
 *.sublime-workspace
 
-# -------------------------------
-# MLflow
-# -------------------------------
-mlruns/
-mlartifacts/
 
-# -------------------------------
-# Large datasets / models
-# -------------------------------
-*.csv
-*.h5
-*.pkl
-*.joblib
-*.model
+
+
 
 # -------------------------------
 # OS generated

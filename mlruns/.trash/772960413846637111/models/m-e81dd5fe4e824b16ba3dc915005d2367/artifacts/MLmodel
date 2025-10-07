@@ -1,0 +1,31 @@
+artifact_path: file:///d:/backup/AI course work/Guvi/Assignment2_EMI_Predict/mlruns/772960413846637111/models/m-e81dd5fe4e824b16ba3dc915005d2367/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+is_signature_from_type_hint: false
+mlflow_version: 3.4.0
+model_id: m-e81dd5fe4e824b16ba3dc915005d2367
+model_size_bytes: 635
+model_uuid: m-e81dd5fe4e824b16ba3dc915005d2367
+prompts: null
+run_id: c285e04c1e94459faf9c76fe71c4cfb9
+signature:
+  inputs: '[{"type": "float", "name": "affordability_ratio", "required": true}, {"type":
+    "float", "name": "monthly_salary", "required": true}, {"type": "float", "name":
+    "expense_to_income", "required": true}, {"type": "float", "name": "debt_to_income",
+    "required": true}, {"type": "float", "name": "existing_loans", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-10-06 09:41:51.461650'

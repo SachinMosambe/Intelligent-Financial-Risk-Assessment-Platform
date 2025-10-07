@@ -1,0 +1,14 @@
+artifact_uri: file:///d:/backup/AI course work/Guvi/Assignment2_EMI_Predict/mlruns/407208619469201270/0349514819154131b2ba79d5e73adc83/artifacts
+end_time: 1759812365383
+entry_point_name: ''
+experiment_id: '407208619469201270'
+lifecycle_stage: active
+run_id: 0349514819154131b2ba79d5e73adc83
+run_name: Decision Tree Regressor
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759812356169
+status: 3
+tags: []
+user_id: sachi

@@ -1,0 +1,22 @@
+artifact_path: file:///d:/backup/AI course work/Guvi/Assignment2_EMI_Predict/mlruns/407208619469201270/models/m-169a88d022a2467fbdc8f60cf2b7fd07/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.4.0
+model_id: m-169a88d022a2467fbdc8f60cf2b7fd07
+model_size_bytes: 1903342542
+model_uuid: m-169a88d022a2467fbdc8f60cf2b7fd07
+prompts: null
+run_id: 78474e46a7fc4c35ad82f539cc0d0c0b
+utc_time_created: '2025-10-07 04:49:02.343073'

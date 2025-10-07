@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/646164083556573300/2118e55dc0d6443ca5c55b1841dc7ae3/artifacts
+deleted_time: 1759773943099
+end_time: 1759738753009
+entry_point_name: ''
+experiment_id: '646164083556573300'
+lifecycle_stage: deleted
+run_id: 2118e55dc0d6443ca5c55b1841dc7ae3
+run_name: Decision Tree Classifier
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759738741532
+status: 3
+tags: []
+user_id: sachi

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/779683918941972457/58fed633aedb4ccab9dd5d6380e44ef2/artifacts
+end_time: 1759782509191
+entry_point_name: ''
+experiment_id: '779683918941972457'
+lifecycle_stage: active
+run_id: 58fed633aedb4ccab9dd5d6380e44ef2
+run_name: HyperparameterTuning_RandomForestClassifier
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759776887978
+status: 3
+tags: []
+user_id: sachi

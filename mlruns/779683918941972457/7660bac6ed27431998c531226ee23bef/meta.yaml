@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/779683918941972457/7660bac6ed27431998c531226ee23bef/artifacts
+end_time: 1759776554384
+entry_point_name: ''
+experiment_id: '779683918941972457'
+lifecycle_stage: active
+run_id: 7660bac6ed27431998c531226ee23bef
+run_name: K-Neighbors Classifier
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759776442672
+status: 3
+tags: []
+user_id: sachi

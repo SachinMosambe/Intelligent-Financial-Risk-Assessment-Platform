@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/779683918941972457/07d4ea8e31054ee8990ed725925ad10f/artifacts
+end_time: 1759816396860
+entry_point_name: ''
+experiment_id: '779683918941972457'
+lifecycle_stage: active
+run_id: 07d4ea8e31054ee8990ed725925ad10f
+run_name: HyperparameterTuning_XGBClassifier
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759816301398
+status: 4
+tags: []
+user_id: sachi

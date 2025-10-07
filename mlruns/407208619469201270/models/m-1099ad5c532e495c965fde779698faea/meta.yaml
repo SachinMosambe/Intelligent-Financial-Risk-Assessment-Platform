@@ -1,0 +1,10 @@
+artifact_location: file:///d:/backup/AI course work/Guvi/Assignment2_EMI_Predict/mlruns/407208619469201270/models/m-1099ad5c532e495c965fde779698faea/artifacts
+creation_timestamp: 1759812576440
+experiment_id: '407208619469201270'
+last_updated_timestamp: 1759812584602
+model_id: m-1099ad5c532e495c965fde779698faea
+model_type: null
+name: model
+source_run_id: 7e2630ce75064498947d154859a80e8c
+status: 2
+status_message: null

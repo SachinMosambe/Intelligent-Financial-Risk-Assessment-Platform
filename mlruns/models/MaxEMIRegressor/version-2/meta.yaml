@@ -1,0 +1,18 @@
+aliases: []
+creation_timestamp: 1759818729410
+current_stage: None
+deployment_job_state: null
+description: ''
+last_updated_timestamp: 1759818729410
+metrics: null
+model_id: m-984ac8726ef6461d86c5dba2b36d5639
+name: MaxEMIRegressor
+params: null
+run_id: c88b2b568a3b49f2855fb32044c4e89a
+run_link: ''
+source: file:///d:/backup/AI course work/Guvi/Assignment2_EMI_Predict/mlruns/407208619469201270/models/m-984ac8726ef6461d86c5dba2b36d5639/artifacts
+status: READY
+status_message: null
+storage_location: file:///d:/backup/AI course work/Guvi/Assignment2_EMI_Predict/mlruns/407208619469201270/models/m-984ac8726ef6461d86c5dba2b36d5639/artifacts
+user_id: null
+version: 2

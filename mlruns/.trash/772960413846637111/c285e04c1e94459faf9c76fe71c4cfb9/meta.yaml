@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/backup/AI course work/Guvi/Assignment2_EMI_Predict/mlruns/772960413846637111/c285e04c1e94459faf9c76fe71c4cfb9/artifacts
+deleted_time: 1759773943412
+end_time: 1759743722302
+entry_point_name: ''
+experiment_id: '772960413846637111'
+lifecycle_stage: deleted
+run_id: c285e04c1e94459faf9c76fe71c4cfb9
+run_name: Linear Regression_baseline
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759743709249
+status: 3
+tags: []
+user_id: sachi

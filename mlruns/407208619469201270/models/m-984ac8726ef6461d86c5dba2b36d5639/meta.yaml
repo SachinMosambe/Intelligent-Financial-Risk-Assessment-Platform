@@ -1,0 +1,10 @@
+artifact_location: file:///d:/backup/AI course work/Guvi/Assignment2_EMI_Predict/mlruns/407208619469201270/models/m-984ac8726ef6461d86c5dba2b36d5639/artifacts
+creation_timestamp: 1759813716466
+experiment_id: '407208619469201270'
+last_updated_timestamp: 1759813726938
+model_id: m-984ac8726ef6461d86c5dba2b36d5639
+model_type: null
+name: best_model
+source_run_id: c88b2b568a3b49f2855fb32044c4e89a
+status: 2
+status_message: null

@@ -1,0 +1,14 @@
+artifact_uri: file:///d:/backup/AI course work/Guvi/Assignment2_EMI_Predict/mlruns/407208619469201270/3a9818fd3f5c4d8aab6a00358d9c473d/artifacts
+end_time: 1759812907736
+entry_point_name: ''
+experiment_id: '407208619469201270'
+lifecycle_stage: active
+run_id: 3a9818fd3f5c4d8aab6a00358d9c473d
+run_name: HyperparameterTuning_RandomForestRegressor
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759812584879
+status: 4
+tags: []
+user_id: sachi

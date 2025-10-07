@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 # MLflow Configuration
-MLFLOW_TRACKING_URI = "http://localhost:5000"
+MLFLOW_TRACKING_URI = "https://your-mlflow-server.com"
 REG_MODEL_NAME = "MaxEMIRegressor"
 REG_MODEL_VERSION = 2
 CLASS_MODEL_NAME = "EMIEligibilityClassifier"
